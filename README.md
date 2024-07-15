@@ -1,4 +1,4 @@
-1. Install Required Software
+1. Install Required Software:
 Web Server: Install XAMPP, WAMP, or any other web server package that includes Apache, PHP, and MySQL.
 Database Server: Ensure MySQL or MariaDB is installed.
 
