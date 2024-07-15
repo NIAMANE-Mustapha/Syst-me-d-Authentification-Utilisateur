@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: url("777.jpg");
+        }
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: transparent;
+            z-index: 999;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px 0;
+        }
+        .logo {
+            max-width: 120px;
+        }
+        a {
+            text-decoration: none;
+            color: white;
+            margin: 0 20px;
+        }
+        .div1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        a {
+            text-decoration: none;
+        }
+        .button_1,
+        .button_2 {
+            margin: 10px;
+            padding: 15px 30px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;
+            border-radius: 10px;
+            display: block;
+            border: 0px;
+            font-weight: 700;
+            cursor: pointer;
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+        }
+        .button_1 {
+            box-shadow: 0px 0px 14px -7px #10c951;
+            background-image: linear-gradient(45deg, #70e143 0%, #33ffa7  51%, #76f145  100%);
+        }
+        .button_2 {
+            box-shadow: 0px 0px 14px -7px #f09819;
+            background-image: linear-gradient(45deg, #FF512F 0%, #F09819  51%, #FF512F  100%);
+        }
+        button:hover {
+            background-position: right center;
+            color: #fff;
+            text-decoration: none;
+        }
+        button:active {
+            transform: scale(0.95);
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        
+        <img class="logo" src="ofppt-logo.png" alt="Logo">
+    </div>
+<div class="div1">
+    <a href="log_in_form.html"><button class="button_1">Login</button></a>
+    <a href="FORM.html"><button class="button_2">Sign Up</button></a>
+</div>
+</body>
+</html>
